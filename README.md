@@ -115,7 +115,7 @@ The following subsections present the experimental results along with visualizat
 
 In this experiment, tasks had similar durations to observe how scheduling behaves under balanced workloads.
 
-![Experiment 1 Comparison](plots/exp1_comparison.png)<img width="1688" height="1361" alt="image" src="https://github.com/user-attachments/assets/0eacbdc6-980f-4043-bde8-ef46bf7589d3" />
+![Experiment 1 Comparison](plots/exp1_comparison.png)
 
 Both policies produced **similar completion times**, indicating that scheduling choice has limited impact when workload distribution is uniform.
 
