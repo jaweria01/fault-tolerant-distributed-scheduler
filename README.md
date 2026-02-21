@@ -106,6 +106,8 @@ Each component runs as an independent FastAPI application.
 
 ```bash
 uvicorn scheduler:app --port 8000
+```
+
 The scheduler exposes APIs for worker registration, task submission, system monitoring, and experiment results.
 
 ### 2️⃣ Start Worker Services
