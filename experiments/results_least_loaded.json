@@ -1,0 +1,11 @@
+{
+  "policy": "least_loaded",
+  "results": [
+    {"task_id":100,"worker":"worker_8001","duration":50.2203},
+    {"task_id":101,"worker":"worker_8002","duration":50.1429},
+    {"task_id":102,"worker":"worker_8001","duration":50.1929},
+    {"task_id":103,"worker":"worker_8002","duration":60.1732},
+    {"task_id":104,"worker":"worker_8001","duration":60.1430},
+    {"task_id":105,"worker":"worker_8002","duration":60.1458}
+  ]
+}

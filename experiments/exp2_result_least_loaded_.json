@@ -1,0 +1,15 @@
+{
+  "policy": "least_loaded",
+  "results": [
+    {"task_id": 401, "worker": "worker_8001", "duration": 10.035241842269897},
+    {"task_id": 402, "worker": "worker_8001", "duration": 15.044816255569458},
+    {"task_id": 403, "worker": "worker_8002", "duration": 20.048553228378296},
+    {"task_id": 404, "worker": "worker_8001", "duration": 90.34129357337952},
+    {"task_id": 405, "worker": "worker_8002", "duration": 100.19236826896667},
+    {"task_id": 406, "worker": "worker_8001", "duration": 110.19317126274109},
+    {"task_id": 407, "worker": "worker_8002", "duration": 15.031043291091919},
+    {"task_id": 408, "worker": "worker_8001", "duration": 20.0741024017334},
+    {"task_id": 409, "worker": "worker_8002", "duration": 25.091705560684204},
+    {"task_id": 410, "worker": "worker_8001", "duration": 120.12607192993164}
+  ]
+}

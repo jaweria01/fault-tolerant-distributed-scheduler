@@ -1,0 +1,11 @@
+{
+    "policy":"round_robin",
+    "results": [
+        {"task_id":200,"worker":"worker_8001","duration":50.25758218765259},
+        {"task_id":201,"worker":"worker_8002","duration":50.14643669128418},
+        {"task_id":202,"worker":"worker_8001","duration":50.08137392997742},
+        {"task_id":203,"worker":"worker_8002","duration":60.21960258483887},
+        {"task_id":204,"worker":"worker_8001","duration":60.14663791656494},
+        {"task_id":205,"worker":"worker_8002","duration":60.28116273880005}
+    ]
+}

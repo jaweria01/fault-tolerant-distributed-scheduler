@@ -1,0 +1,15 @@
+{
+  "policy": "round_robin",
+  "results": [
+    {"task_id": 401, "worker": "worker_8001", "duration": 10.140496253967285},
+    {"task_id": 402, "worker": "worker_8002", "duration": 15.146812677383423},
+    {"task_id": 403, "worker": "worker_8001", "duration": 20.356978178024292},
+    {"task_id": 404, "worker": "worker_8002", "duration": 90.67575144767761},
+    {"task_id": 405, "worker": "worker_8001", "duration": 100.76193284988403},
+    {"task_id": 406, "worker": "worker_8002", "duration": 110.51910018920898},
+    {"task_id": 407, "worker": "worker_8001", "duration": 15.058562755584717},
+    {"task_id": 408, "worker": "worker_8002", "duration": 20.153382539749146},
+    {"task_id": 409, "worker": "worker_8001", "duration": 25.246771335601807},
+    {"task_id": 410, "worker": "worker_8002", "duration": 120.29048323631287}
+  ]
+}
