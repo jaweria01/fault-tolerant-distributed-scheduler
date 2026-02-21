@@ -53,6 +53,9 @@ All components communicate using **REST APIs over HTTP**, meaning:
 - No shared variables  
 - All coordination happens through network calls
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/00bcb300-fd6d-4eea-9c59-aa10117f35dc" />
+
+
 ## ⚙️ Core Features
 
 The system implements several core mechanisms commonly found in real distributed platforms:
