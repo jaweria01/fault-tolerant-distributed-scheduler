@@ -115,40 +115,47 @@ The scheduler exposes APIs for worker registration, task submission, system moni
 Run each worker in a separate terminal window.
 
 Example:
-
-`uvicorn worker:app --port 8001`
-`uvicorn worker2:app --port 8002`
+```bash
+uvicorn worker:app --port 8001
+```
+```bash
+uvicorn worker2:app --port 8002
+```
 
 When started, workers automatically register themselves with the scheduler and begin sending heartbeat signals.
 
 ### 3️⃣ Submit Tasks
 
 Open the interactive API documentation:
-
-`http://127.0.0.1:8000/docs`
+```bash
+http://127.0.0.1:8000/docs
+```
 
 Use the /submit_task endpoint to create tasks.
 
 Example request:
-
-`{
+```bash
+{
   "task_id": 1,
   "duration": 20
-}`
+}
+```
 
 ### 4️⃣ Monitor System State
 
 The current system status can be inspected at:
-
+```bash
 http://127.0.0.1:8000/status
+```
 
 This endpoint displays active workers, task assignments, system load, and heartbeat information.
 
 ### 5️⃣ Retrieve Experiment Results
 
 After tasks complete, performance data can be obtained from:
-
-`http://127.0.0.1:8000/experiment_results`
+```bash
+http://127.0.0.1:8000/experiment_results
+```
 
 The returned JSON can be saved for visualization and analysis.
 
