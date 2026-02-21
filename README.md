@@ -158,6 +158,61 @@ http://127.0.0.1:8000/experiment_results
 ```
 
 The returned JSON can be saved for visualization and analysis.
+Save JSON outputs into experiments/.
+### Then generate plots:
+```bash
+python compare_results.py
+```
+Graphs will be saved in the plots/ folder.
+
+## 📂 Repository Structure
+
+The repository is organized to separate system components, experimental data, and generated visualizations.
+
+```text
+scheduler.py                # Central scheduler service
+worker.py                   # Worker implementation
+worker2.py                  # Second worker instance for multi-node testing
+compare_results.py          # Script for generating experiment visualizations
+
+experiments/                # Saved experiment outputs (JSON format)
+    results_round_robin.json
+    results_least_loaded.json
+    results_round_robin_experiment2.json
+    exp2_result_least_loaded_.json
+
+plots/                      # Generated graphs and performance visualizations
+    *.png
+
+requirements.txt            # Project dependencies
+README.md                   # Project documentation
+
+## 🎓 Educational Value
+
+This project demonstrates key concepts from distributed systems and cloud computing, including service coordination, failure detection, task scheduling, and performance evaluation.
+
+It can be used as a practical reference for:
+
+- Distributed systems coursework  
+- Fault-tolerant system design demonstrations  
+- Scheduling algorithm comparison studies  
+- Microservices coordination experiments  
+- Graduate-level systems project portfolios  
+
+The implementation combines both engineering design and empirical evaluation, making it suitable for academic learning as well as research-oriented exploration.
+
+## 🔮 Future Improvements
+
+Possible extensions of the system include:
+
+- Priority-based or deadline-aware scheduling policies  
+- Persistent task queues and state storage  
+- Containerized deployment using Docker  
+- Distributed logging and monitoring dashboards  
+- Automatic worker scaling mechanisms  
+- Deployment across multiple physical or cloud machines  
+
+These additions would further align the system with production-scale distributed platforms.
 
 
 
