@@ -170,6 +170,8 @@ Graphs will be saved in the plots/ folder.
 
 The repository is organized to separate system components, experimental data, and generated visualizations.
 
+```bash
+
 scheduler.py                # Central scheduler service
 worker.py                   # Worker implementation
 worker2.py                  # Second worker instance for multi-node testing
@@ -186,6 +188,8 @@ plots/                      # Generated graphs and performance visualizations
 
 requirements.txt            # Project dependencies
 README.md                   # Project documentation
+
+```
 
 ## 🎓 Educational Value
 
