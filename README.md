@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-Framework-green)
+![Distributed Systems](https://img.shields.io/badge/Domain-Distributed%20Systems-orange)
+![Scheduling](https://img.shields.io/badge/Focus-Task%20Scheduling-purple)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 # Performance Evaluation of a Fault-Tolerant Distributed Task Scheduling System
 This repo contains a fault-tolerant distributed task scheduling system with heartbeat-based failure detection, dynamic task reassignment, Round-Robin and Least-Loaded scheduling policies, and experimental performance evaluation.
 ## 📌 Overview
