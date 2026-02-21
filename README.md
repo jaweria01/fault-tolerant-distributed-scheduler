@@ -125,8 +125,8 @@ Both policies produced **similar completion times**, indicating that scheduling 
 
 This experiment used tasks with varied durations to evaluate how scheduling policies respond to heterogeneous workloads.
 
-![Experiment 2 Comparison](<img width="1715" height="1361" alt="image" src="https://github.com/user-attachments/assets/bd1a1a1b-320d-47b8-a170-f7c56400e6eb" />
-)
+![Experiment 2 Comparison]<img width="1715" height="1361" alt="image" src="https://github.com/user-attachments/assets/36f0a9de-0322-47ba-bc67-81159032c183" />
+
 
 Results show that scheduling decisions influence task timing and worker utilization when workloads are uneven.
 
