@@ -106,6 +106,52 @@ The evaluation focuses on three primary metrics:
 
 The following subsections present the experimental results along with visualizations and interpretations.
 
+
+---
+
+## 📊 Experimental Results
+
+### Experiment 1 — Uniform Workload
+
+In this experiment, tasks had similar durations to observe how scheduling behaves under balanced workloads.
+
+![Experiment 1 Comparison](plots/exp1_comparison.png)<img width="1688" height="1361" alt="image" src="https://github.com/user-attachments/assets/0eacbdc6-980f-4043-bde8-ef46bf7589d3" />
+
+Both policies produced **similar completion times**, indicating that scheduling choice has limited impact when workload distribution is uniform.
+
+---
+
+### Experiment 2 — Mixed Workload
+
+This experiment used tasks with varied durations to evaluate how scheduling policies respond to heterogeneous workloads.
+
+![Experiment 2 Comparison](<img width="1715" height="1361" alt="image" src="https://github.com/user-attachments/assets/bd1a1a1b-320d-47b8-a170-f7c56400e6eb" />
+)
+
+Results show that scheduling decisions influence task timing and worker utilization when workloads are uneven.
+
+---
+
+### Worker Utilization
+
+The following charts illustrate how tasks were distributed across workers.
+
+![Experiment 1 Utilization](plots/exp1_utilization.png)
+![Experiment 2 Utilization](plots/exp2_utilization.png)
+
+These graphs show how load balancing differs between scheduling strategies.
+
+---
+
+### Makespan Comparison
+
+The total completion time for each experiment is shown below.
+
+![Makespan Comparison](plots/makespan_comparison.png)
+
+Makespan reflects the overall system efficiency and highlights the impact of scheduling decisions on total execution time.
+
+
 ## ▶️ Running the System
 
 The system consists of one scheduler service and one or more worker services.  
